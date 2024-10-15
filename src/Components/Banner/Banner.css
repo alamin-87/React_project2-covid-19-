@@ -1,0 +1,81 @@
+.banner_row1{
+    @apply flex flex-wrap justify-between gap-[50px] md:gap-[55px]
+}
+.banner{
+    @apply pt-[127px] md:pt-[126px] lg:pt-[211px] bg-no-repeat bg-cover bg-center
+}
+.banner_text h2{
+    @apply text-[12px] md:text-[18px] lg:text-[24px] text-brandcolor font-montserrat font-[700] leading-[14px] md:leading-[22px] lg:leading-[29px]
+    
+}
+.banner_text h1{
+    @apply text-[24px] md:text-[36px] lg:text-[48px] text-white font-montserrat font-[800] lg:w-[551px] md:w-[414px] w-[276px] leading-tight pt-[20px] pb-[20px]
+    md:pt-[40px] md:pb-[40px] lg:pt-[40px] lg:pb-[50px]
+}
+
+.banner_text h1 span{
+    @apply text-brandcolor block hover:text-white transition-[.4s]
+}
+.banner_text p{
+    @apply text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFFB2] font-montserrat font-[700] lg:w-[603px] md:w-[502px] w-[271px] pb-[40px] lg:pb-[50px]
+}
+.banner_img{
+    @apply relative
+}
+.banner_img .animationimg1{
+    @apply absolute top-[50%] left-0 translate-y-[-50%];
+    animation: banneranimation 3s linear infinite;
+}
+.banner_img .animationimg2{
+    @apply absolute top-[50%] right-[-28px] md:right-[-40px] translate-y-[-50%];
+    animation: banneranimation 3s linear infinite;
+}
+@keyframes banneranimation{
+    0%{
+        top: 50%;
+    }
+    50%{
+        top: 40%;
+    }
+    100%{
+        top: 50%;
+    }
+}
+.banner_row2{
+    @apply pt-[43px] md:pt-[39px] lg:pt-0
+}
+.banner_row2 .text1{
+    @apply flex items-center gap-[10px] md:gap-[20px]
+}
+.banner_row2 .clockicon{
+    @apply w-[30px] h-[30px] md:w-[50px] md:h-[50px] bg-[#C4C4C41A] rounded-[10px] text-[#17C2EC]
+}
+.banner_row2 h3{
+    @apply text-white text-[14px] md:text-[24px] font-montserrat font-[700]
+}
+.details{
+    @apply pl-[10px] pt-[20px] flex flex-col lg:flex-row lg:gap-[50px] lg:pl-[40px] lg:pt-0 gap-[15px]  md:gap-[32px] lg:items-center shadow-[-1px_-10px_0px_0px_#00000024]
+}
+.banner_row2 .details{
+    @apply w-[305px] md:w-[668px] lg:w-full lg:h-[160px]  rounded-tl-[20px] rounded-tr-[20px] bg-[#C4C4C41A] mt-[31px]
+}
+.details .detailsicon{
+    @apply w-[30px] h-[30px] md:w-[50px] md:h-[50px] bg-[#C4C4C41A] rounded-[10px] text-[#17C2EC]
+}
+.banner_row2 .details p{
+    @apply text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFF80] font-montserrat font-[600]
+}
+.banner_row2 .details h2{
+    @apply text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFF] font-montserrat font-[700]
+}
+.banner_row2 .details .last_button{
+    @apply  flex mb-[10px] md:mb-0 lg:ml-[116px] mt-[10px] px-[48px] py-[16px] md:px-[88px] md:py-[20px] lg:px-[25px] lg:py-[20px] md:rounded-[20px]
+  bg-brandcolor border-[2px] border-solid border-brandcolor rounded-[10px] text-[14px] md:text-[20px] lg:text-[24px] text-white
+    font-montserrat font-[700] hover:bg-transparent transition-[.4s] active:scale-[1.1]
+}
+.details .div1{
+    @apply flex flex-col gap-[14px] md:flex-row lg:gap-[50px]  md:justify-between md:pl-[12px] md:pr-[36px] lg:pl-0 lg:pr-0 md:pt-[37px]  lg:pt-0
+}
+.details .div2{
+    @apply flex flex-col gap-[14px] md:flex-row lg:gap-[50px] md:justify-between md:pl-[12px] md:pr-[36px] lg:pl-0 lg:pr-0 md:pb-[45px] lg:pb-0
+}

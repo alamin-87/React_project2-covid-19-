@@ -1,0 +1,13 @@
+
+.menu_button{
+    @apply shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)];
+}
+.menu_content{
+    @apply flex items-center gap-[181px]
+}
+.menu{
+    @apply hidden lg:block
+}
+.menu_logo img{
+    @apply w-[142px] md:w-[200px] lg:w-[251px]
+}

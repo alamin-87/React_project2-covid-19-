@@ -1,0 +1,30 @@
+.ResponsiveNav{
+    @apply relative lg:hidden
+}
+.Res_menu_content{
+    @apply p-[40px] w-[250px] bg-brandcolor rounded-lg absolute top-[130%] right-0 overflow-hidden;
+    animation: resmenu 1s linear;
+}
+@keyframes resmenu {
+    0%{
+        opacity: 0;
+        top: 100%;
+        height: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        top: 130%;
+        height: 344px;
+        width: 250px;
+    }
+}
+.Res_menu_text ul{
+    @apply gap-5
+}
+.Res_menu_text ul li a{
+    @apply w-[136px] h-[29px] text-[24px] text-[#fff] font-montserrat font-[500]
+}
+.Res_menu_button{
+    @apply py-2 px-8 bg-black rounded-sm  text-white mt-5 font-montserrat font-normal
+}

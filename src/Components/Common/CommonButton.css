@@ -1,0 +1,6 @@
+.commonbutton_text{
+    @apply lg:px-[25px] lg:py-[20px] px-[25px] py-[16px] bg-brandcolor text-[14px] md:text-[20px] lg:text-[24px] text-white font-montserrat font-[700] rounded-[20px] border-[2px]
+     border-solid border-brandcolor hover:bg-transparent transition-[.4s] active:scale-[1.1]
+    
+    
+}
