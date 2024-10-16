@@ -1,0 +1,22 @@
+.footer{
+    @apply bg-[url('images/footer.png')] bg-no-repeat bg-cover bg-center pb-[30px] md:pb-[51px] lg:pb-[123px]
+}
+.footer .footer_row{
+    @apply pt-[133px] md:pt-[270px] lg:pt-[327px] lg:flex md:flex-col lg:flex-row flex-wrap justify-between items-center
+}
+.footer_text ul{
+    @apply flex flex-wrap gap-[10px] md:gap-[25px] flex-col md:flex-row py-[20px] md:py-[40px] lg:py-0
+}
+.footer_icon{
+    @apply flex flex-wrap gap-[4px] md:gap-[8px] lg:gap-[10px]
+}
+.footer_row .footer_logo img{
+    @apply w-[142px] h-[32px] md:w-[200px] md:h-[44px] lg:w-[251px]
+}
+.footer_text ul li a{
+    @apply text-[14px] md:text-[20px] lg:text-[24px] text-[#FFFFFF80] font-montserrat font-[500] hover:text-white hover:font-[700] inline-block
+    transition-[.4s]
+}
+.footer .footer_row .footer_icon a{
+    @apply flex text-[18px] md:text-[31px] lg:text-[50px] text-white
+}

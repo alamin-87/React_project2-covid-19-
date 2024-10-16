@@ -6,6 +6,8 @@ import { GrShieldSecurity } from "react-icons/gr";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { GoPeople } from "react-icons/go";
 import { CiTempHigh } from "react-icons/ci";
+import { BiLogoTelegram } from "react-icons/bi";
+
 
 
 
@@ -116,6 +118,66 @@ const Section = () => {
                 <p className='section5_p1'>Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit. </p>
                 <p className='section5_p2'>Mi vestibulum, ullamcorper venenatis imperdiet augue arcu donec neque.</p>
                 <img src="images/Group 65.png" alt="" />
+            </div>
+        </div>
+      </div>
+      <div className="section6">
+        <div className="container">
+            <div className="section6_row">
+                <div className="section6_row1">
+                    <h3>FEEDBACK</h3>
+                    <h2>What our Patients Think</h2>
+                    <p className='section6_p1'>Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis aenean eu velit.</p>
+                    <p className='section6_p2'>Mi vestibulum, ullamcorper venenatis imperdiet augue arcu donec neque.</p>
+                </div>
+                <div className="section6_row2">
+                    <div className="section6_row2_cards">
+                        <div className="section6_row2_card1">
+                            <div className="card1_details">
+                                <img src="images/person1.png" alt="person1" />
+                                <div className="person1_text">
+                                    <h2>Oyindamola Maja</h2>
+                                    <p>Badagry, Lagos</p>
+                                </div>
+                            </div>
+                            <div className="card1_text">
+                                <p>“Been stressing about a close centre to get the <span className='span'>covid-19</span> vaccine, until i tried Vaccination.ng”</p>
+                            </div>
+                        </div>
+                        <div className="section6_row2_card1">
+                            <div className="card1_details">
+                                <img src="images/person2.png" alt="person1" />
+                                <div className="person1_text">
+                                    <h2>Okeowo Lekan</h2>
+                                    <p>Ikeja, Lagos</p>
+                                </div>
+                            </div>
+                            <div className="card1_text">
+                                <p className='card1_p'>“Got my vaccine very close to my house. Was very easy scheduling an appointment.”</p>
+                            </div>
+                        </div>
+                        <div className="section6_row2_card1">
+                            <div className="card1_details">
+                                <img src="images/person3.png" alt="person1" />
+                                <div className="person1_text">
+                                    <h2>Kafaru Temitope</h2>
+                                    <p>Obanikoro, Lagos</p>
+                                </div>
+                            </div>
+                            <div className="card1_text">
+                                <p>“Been stressing about a close centre to get the <span className='span'>covid-19</span> vaccine, until i tried Vaccination.ng”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="section6_row3">
+                    <h2>Get a quote</h2>
+                    <p>Please do enter your email address below</p>
+                     <div className="section6_row3_senddata">
+                        <input type="text" placeholder='lenux.ng@gmail.com' />
+                        <button><BiLogoTelegram />  </button>
+                     </div>
+                </div>
             </div>
         </div>
       </div>
